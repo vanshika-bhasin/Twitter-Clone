@@ -1,5 +1,4 @@
-{
-  "homepage": "",
+{"homepage": "https://vanshika-bhasin.github.io",
   "name": "twitter",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +36,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,5 +53,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://europe-west3-twirrer-app.cloudfunctions.net/api"
+  "proxy": "https://europe-west3-twirrer-app.cloudfunctions.net/api",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
